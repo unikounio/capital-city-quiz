@@ -1,0 +1,21 @@
+{
+  "name": "capital-city-quiz",
+  "version": "1.0.0",
+  "description": "It's a quiz app where you guess the capital from the country name.",
+  "main": "main.js",
+  "author": "unikounio",
+  "scripts": {
+    "fix": "prettier --write . && eslint --fix .",
+    "lint": "prettier --check . && eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-prettier": "^8.8.0",
+    "prettier": "^2.8.8"
+  },
+  "type": "module",
+  "dependencies": {
+    "countries-list": "^3.0.6",
+    "enquirer": "^2.4.1"
+  }
+}
