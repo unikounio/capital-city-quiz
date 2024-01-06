@@ -2,7 +2,15 @@
   "name": "capital-city-quiz",
   "version": "1.0.0",
   "description": "It's a quiz app where you guess the capital from the country name.",
-  "main": "main.js",
+  "bin": {
+    "capital-city-quiz": "./main.js"
+  },
+  "keywords": [
+    "capital",
+    "country",
+    "quiz",
+    "world"
+  ],
   "author": "unikounio",
   "license": "MIT",
   "scripts": {
@@ -17,6 +25,7 @@
   "type": "module",
   "dependencies": {
     "countries-list": "^3.0.6",
-    "enquirer": "^2.4.1"
+    "enquirer": "^2.4.1",
+    "minimist": "^1.2.8"
   }
 }
