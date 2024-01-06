@@ -4,6 +4,7 @@
   "description": "It's a quiz app where you guess the capital from the country name.",
   "main": "main.js",
   "author": "unikounio",
+  "license": "MIT",
   "scripts": {
     "fix": "prettier --write . && eslint --fix .",
     "lint": "prettier --check . && eslint ."
