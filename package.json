@@ -26,6 +26,7 @@
   "dependencies": {
     "countries-list": "^3.0.6",
     "enquirer": "^2.4.1",
+    "i18next": "^23.7.16",
     "minimist": "^1.2.8"
   }
 }

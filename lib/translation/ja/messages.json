@@ -1,0 +1,16 @@
+{
+  "SelectScope": "出題範囲を選んでください。",
+  "AllCountries": "[1] すべての国",
+  "ByContinent": "[2] 大陸別",
+  "SelectAContinent": "出題する大陸を選んでください:",
+  "HowManyQuestions": "問題数を入力してください。",
+  "Invalid": "有効な数字を入力してください。",
+  "QuestionCount": "1から{{countriesLength}}の間の数字を入力してください。今回の最大出題数は{{countriesLength}}問です。",
+  "Question": "国名: {{countryName}}\nこの国の首都はどこでしょうか?:",
+  "Cancel": "クイズはキャンセルされました。アプリケーションを終了します。",
+  "QuizStart": "それでは、第1問です!",
+  "QuizResult": "あなたは{{numberOfQuestions}}問中{{correctCounter}}問正解しました! 正解率は{{percentage}}%です。",
+  "QuestionNumber": "第{{questionNumber}}問。",
+  "Correct": "正解です!",
+  "Incorrect": "残念ながら、不正解です。正解は\"{{correctCapital}}\"でした。"
+}
