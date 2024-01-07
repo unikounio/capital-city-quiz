@@ -1,7 +1,7 @@
 {
-  "SelectScope": "Do you want to focus on all countries or select by continent?",
+  "SelectScope": "Please select the quiz scope:",
   "AllCountries": "[1] All countries",
-  "ByContinent": "[2] By Continent",
+  "ByContinent": "[2] By continent",
   "SelectAContinent": "Please select a continent:",
   "HowManyQuestions": "How many questions would you like to answer?",
   "Invalid": "Please enter a valid number.",
@@ -12,5 +12,5 @@
   "QuizResult": "You got {{correctCounter}} out of {{numberOfQuestions}} questions right! Your accuracy rate is {{percentage}}%.",
   "QuestionNumber": "Question {{questionNumber}}.",
   "Correct": "Correct!",
-  "Incorrect": "Sorry about that. The correct answer is \"{{correctCapital}}\""
+  "Incorrect": "Oops! Not quite. The correct answer is \"{{correctCapital}}\"."
 }
