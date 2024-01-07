@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import Main from "./lib/quiz_app.js";
+import QuizApp from "./lib/quiz_app.js";
 
-const main = new Main();
-main.run();
+const quizApp = new QuizApp();
+quizApp.run();

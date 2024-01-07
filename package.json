@@ -1,7 +1,7 @@
 {
   "name": "capital-city-quiz",
-  "version": "1.0.0",
-  "description": "It's a quiz app where you guess the capital from the country name.",
+  "version": "1.0.1",
+  "description": "It's a quiz app where you guess the capital name from the country name.",
   "bin": {
     "capital-city-quiz": "./main.js"
   },
@@ -9,10 +9,22 @@
     "capital",
     "country",
     "quiz",
-    "world"
+    "world",
+    "geography",
+    "education",
+    "trivia",
+    "game",
+    "learning"
   ],
   "author": "unikounio",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unikounio/capital-city-quiz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unikounio/capital-city-quiz/issues"
+  },
   "scripts": {
     "fix": "prettier --write . && eslint --fix .",
     "lint": "prettier --check . && eslint ."
