@@ -1,43 +1,46 @@
 # capital-city-quiz
 
-これは世界の国名から首都名を当てる CLI クイズアプリです。
+This is a CLI quiz application where you guess the capitals of countries around the world.
 
-# install
+# Install
 
 ```
-npx capital-city-quiz
+npm install -g capital-city-quiz
 ```
 
-# supported language
+# Supported Language
 
-- English
+- English (Default)
 - Japanese
+
+Please note that the default language of the application is English.
+You can switch to Japanese by using the `-j` option
 
 # Usage
 
-## クイズモード
+## Quiz Mode
 
-### 起動
+### Launch
 
-起動するには次のコマンドを入力します。
+To start the quiz, enter the following command:
 
 ```
 capital-city-quiz
 ```
 
-### 出題範囲の選択
+### Selecting the Scope
 
-出題範囲を選択します。
+Choose the scope of the quiz:
 
 ```
-? Please select the quiz scope: …
+? Please select the scope: …
 ▸ [1] All countries
   [2] By continent
 ```
 
-#### `By continent`を選択した場合
+#### If you choose `By continent`
 
-答えたい大陸を選択します。
+Select the continent you want to answer questions about:
 
 ```
 ? Please select a continent: …
@@ -50,26 +53,26 @@ capital-city-quiz
   South America
 ```
 
-### 問題数の入力
+### Entering the Number of Questions
 
-出題する問題の数を入力します。
-なお、収録問題数は次のとおりです。
+Enter the number of questions you want to be asked.
+The number of available questions is as follows:
 
-- All countries: 250 問
-- Africa : 58 問
-- Antarctica : 5 問
-- Asia : 53 問
-- Europe : 52 問
-- North America: 41 問
-- Oceania : 27 問
-- South America: 14 問
+- All countries: 250
+- Africa : 58
+- Antarctica : 5
+- Asia : 53
+- Europe : 52
+- North America: 41
+- Oceania : 27
+- South America: 14
 
 ```
 ? How many questions would you like to answer? ‣ 10
 ```
 
-クイズが始まります。
-国名が提示されますので、答えとなる首都名を選択してください。
+The quiz will begin.
+A country name is displayed, and you must select the correct capital city.
 
 ```
 Now, let's start with Question 1!
@@ -82,24 +85,76 @@ Select your answer: …
   Copenhagen
 ```
 
-首都名を選択すると、正解か不正解かを判定します。
-不正解の場合は、正しい首都名を示します。
+After selecting a capital city, the app will indicate whether you are correct or incorrect.
+If incorrect, it will show the right answer.
 
 ```
 Oops! Not quite. The correct answer is "Tokyo".
 ```
 
-初めに入力した問題数を出題し終えると、正解数と正解率が表示されます。
+Once you have answered the number of questions you initially entered, the app will display your total correct answers and accuracy rate.
 
 ```
 You got 5 out of 10 questions right! Your accuracy rate is 50%.
 ```
 
-## ビューモード
+## View Mode
 
-## 日本語
+By starting the app with the`-v`option, you can view the list of capitals of different countries.
 
-楽しんで!
+```
+$ capital-city-quiz -v
+```
+
+```
+? Please select the scope: …
+▸ [1] All countries
+  [2] By continent
+```
+
+```
+Andorra: Andorra la Vella
+United Arab Emirates: Abu Dhabi
+Afghanistan: Kabul
+Antigua and Barbuda: Saint John's
+Anguilla: The Valley
+...
+```
+
+## Japanese Mode
+
+With the `-j` option, you can enjoy the quiz in Japanese.
+
+```
+$ capital-city-quiz -j
+```
+
+In this mode, the questions will be presented in Japanese.
+For example:
+
+```
+? 国名: 日本
+この国の首都はどこでしょうか?: …
+▸ ワシントンD.C.
+  東京
+  モスクワ
+  コペンハーゲン
+```
+
+This option also applies to the view mode, allowing you to view the capitals in Japanese.
+
+```
+
+✔ 出題範囲を選択してください。 · [1] すべての国
+アンドラ: アンドラ・ラ・ベリャ
+アラブ首長国連邦: アブダビ
+アフガニスタン: カブール
+アンティグア・バーブーダ: セントジョンズ
+アンギラ: ザ・バレー
+...
+```
+
+Enjoy!
 
 # License
 
