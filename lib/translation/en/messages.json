@@ -12,5 +12,5 @@
   "QuizResult": "You got {{correctCounter}} out of {{numberOfQuestions}} questions right! Your accuracy rate is {{percentage}}%.",
   "QuestionNumber": "Question {{questionNumber}}.",
   "Correct": "Correct!",
-  "Incorrect": "Oops! Not quite. The correct answer is \"{{correctCapital}}\"."
+  "Incorrect": "Oops! Not quite. The correct answer is \"{{translatedCapital}}\"."
 }

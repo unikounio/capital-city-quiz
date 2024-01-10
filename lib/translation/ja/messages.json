@@ -12,5 +12,5 @@
   "QuizResult": "あなたは{{numberOfQuestions}}問中{{correctCounter}}問正解しました! 正解率は{{percentage}}%です。",
   "QuestionNumber": "第{{questionNumber}}問。",
   "Correct": "正解です!",
-  "Incorrect": "惜しい! 正解は『{{correctCapital}}』でした。"
+  "Incorrect": "惜しい! 正解は『{{translatedCapital}}』でした。"
 }

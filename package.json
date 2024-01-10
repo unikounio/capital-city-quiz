@@ -1,6 +1,6 @@
 {
   "name": "capital-city-quiz",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "It's a quiz app where you guess the capital name from the country name.",
   "bin": {
     "capital-city-quiz": "./main.js"
