@@ -1,0 +1,16 @@
+{
+  "SelectScope": "Please select the scope:",
+  "AllCountries": "[1] All countries",
+  "ByContinent": "[2] By continent",
+  "SelectAContinent": "Please select a continent:",
+  "HowManyQuestions": "How many questions would you like to answer?",
+  "Invalid": "Please enter a valid number.",
+  "QuestionCount": "Please enter a number between 1 and {{countriesLength}}.\n  the maximum number of questions for this quiz is {{countriesLength}}.",
+  "Question": "Country: {{countryName}}\nWhich is the capital of this country?\nSelect your answer:",
+  "Cancel": "The quiz has been canceled. Exiting the application.",
+  "QuizStart": "Now, let's start with Question 1!",
+  "QuizResult": "You got {{correctCounter}} out of {{numberOfQuestions}} questions right! Your accuracy rate is {{percentage}}%.",
+  "QuestionNumber": "Question {{questionNumber}}.",
+  "Correct": "Correct!",
+  "Incorrect": "Oops! Not quite. The correct answer is \"{{translatedCapital}}\"."
+}
